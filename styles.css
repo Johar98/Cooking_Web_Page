@@ -35,6 +35,17 @@ nav img {
   height: 1.5rem;
 }
 
+p {
+  color: black;
+  font-family: roboto;
+  text-align: left;
+  -webkit-text-decoration: underline green;
+          text-decoration: underline green;
+  text-align-last: center;
+  text-indent: 20px;
+  background: red;
+}
+
 body {
   margin: 0%;
   -webkit-box-sizing: border-box;
@@ -42,7 +53,7 @@ body {
   overflow-x: hidden;
 }
 
-h1 {
+h1, p {
   color: aquamarine;
   font-size: 300 px;
   font-family: roboto;

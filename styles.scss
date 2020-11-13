@@ -3,6 +3,22 @@ $font: roboto;
 
 @import "./navigation";
 
+@mixin Paragraph($background) {
+    color: black;
+    font-family: $font;
+    text-align: left;
+    text-decoration: underline green;
+    text-align-last:center;
+    text-indent: 20px;
+    background: $background;
+}
+
+p
+{
+    @include Paragraph(red);
+    @extend h1;
+}
+
 body
 {
     margin: 0%;
