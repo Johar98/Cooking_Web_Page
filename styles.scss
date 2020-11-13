@@ -1,0 +1,33 @@
+$color:#2d3e23;
+$font: roboto;
+
+@import "./navigation";
+
+body
+{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+h1
+{
+    color: aquamarine;
+    font-size: 300 px;
+    font-family: roboto;
+}
+button
+{
+    width: 100px;
+    height: 2rem;
+    margin-right: 1rem;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    &:hover
+    {
+        background-color: white;
+        color: black;
+    }
+}
