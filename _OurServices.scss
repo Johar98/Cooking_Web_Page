@@ -1,0 +1,77 @@
+
+.our-services
+{
+    background:$whole_background;
+    position: relative;
+    top: -16px;
+.bg
+    {
+        background-image: url(./Bg.png);
+        position: relative;
+        background-repeat: no-repeat;
+        background-position:0 100% ;
+        background-size: contain;
+    }
+
+.heading1
+{
+    justify-content: center;
+    display:flex;
+    position: relative;
+.padding
+{
+    text-align: center;
+    padding: 9rem 0 3rem 0;
+h6
+{
+    color: $menu_orange;
+    font-family: $roboto;
+    
+}
+h2
+{
+    font-family: Arial black;
+}
+}
+}
+.more
+{
+    justify-content: center;
+    display:flex;
+    position: relative;
+    padding: 3rem 0 6rem 0;
+.btn4
+{
+    text-align: center;
+    padding: .7rem 2.5rem;
+    border-radius: .6rem;
+    font-family: $roboto;
+    color: white;
+    background: $menu_orange;
+    border: none;
+    transition: all .3s ease;
+    &:hover
+    {
+        background: rgb(224, 224, 224);
+        color: $menu_orange;
+        transition: .3s ease;
+    }
+}
+}
+.flex-row img
+{
+    
+    position: relative;
+    width: 30%;
+    margin: 1rem 1em; 
+    border-radius: 2rem;
+    transition: all .4s ease;
+    filter: brightness(50%);
+&:hover
+    {
+        filter: brightness(100%);
+        transition: .4s ease;
+        transform: scale(1.1);
+    }
+}
+}

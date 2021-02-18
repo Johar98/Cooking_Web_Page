@@ -1,0 +1,84 @@
+
+.choose
+{
+    position: relative;
+    top: -16px;
+    .back_img
+    {
+        background-image: url(./images/vanesa-conunaese-JXow53j6AtE-unsplash.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-position: cover;
+    }
+        .whyinfo
+        {
+            justify-content: center;
+            text-align: center;
+            width: 80%;
+            margin: 0 25.3rem;
+            padding: 4rem 6rem;
+        .text
+        {
+            max-width: 78%;
+            margin: 0 0 0 5rem;
+        h1
+        {
+            font-family: $Arial black;
+            padding: 0 0 1rem;
+            font-size: 2rem;
+        }
+        p
+        {
+            font-family: $Arial black;
+            font-size: 1rem;
+        }
+        }
+        .sets
+        {
+            text-align: center;
+            align-items: center;
+            margin: 6rem 0;
+        .cardbody
+        {
+            width: 16rem;
+            background: $why_background;
+            position: relative;
+            right: 3rem;
+            border-radius: 2rem;
+            margin: 0 1rem;
+            height: 23rem;
+            transition: all .3s ease;
+            &:hover
+            {
+                box-shadow: 20px 20px 50px grey;
+                transition: .3s ease;
+                transform: scale(1.03);
+            }
+        img
+        {
+            width: 50%;
+            padding: 2rem 0
+        }
+        h3
+        {
+            font-family: $Arial;
+            font-weight: bold;
+            transition:all .3s ease;
+        &:hover
+        {
+            transition: .3s ease;
+            cursor: pointer;
+            color: $menu_orange;
+        }
+        }
+        p
+        {
+            font-family: $Arial;
+            font-weight: 800;
+            padding: 1rem .5rem;
+            font-size: .78rem;
+        }
+        }
+        }
+    }
+}

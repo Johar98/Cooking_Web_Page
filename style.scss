@@ -1,0 +1,22 @@
+@import "./variable";
+@import "./Global";
+@import "./navbar";
+@import "./MainDescription";
+@import "./Offer";
+@import "./about";
+@import "./FamousFood";
+@import "./OurServices";
+@import "./OurDeliciousMenu";
+@import "./NumberFigure";
+@import "./choose";
+
+.footer
+{
+    background: $footer_color;
+    color: white;
+    .fa-circle
+    {
+        
+    }
+
+}

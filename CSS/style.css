@@ -1,0 +1,659 @@
+
+
+html,body
+{
+margin: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+font-family: roboto;
+}
+
+
+/*----------Global Classes---------------*/
+p
+{
+    font-family:raleway;
+    color: #353434;
+}
+.text-gray
+{
+    color:#303030;
+}
+span
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+a
+{
+    text-decoration: none;
+    color: #ff4500;
+
+}
+
+a:hover
+{
+    text-decoration: underline;
+
+}
+
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+
+    list-style-type: none;
+
+}
+
+h1
+{
+    font-family: roboto;
+    font-size: 2.5rem;
+}
+
+h3
+{
+    font-family: raleway;
+    font-size: 1.3rem;
+}
+
+
+:root{
+    --fun:linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+   --enjoy:linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+--sky:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+/*-----x------Global Classes-----------x---*/
+
+
+
+/*----------navbar---------*/
+
+.nav
+{
+    background:white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 11vh;/* ya menu bar ko fix size data ha*/
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+
+}
+
+.nav-menu
+{
+    justify-content: space-between;
+}
+
+.toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.toggle-icons
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.toggle-icons i
+{
+    font-size: 1.4rem;
+    color:#ff4500;
+}
+
+.collapse
+{
+    height: 30rem;
+}
+
+
+.nav-items{
+
+    display: flex;
+    margin: 0;
+}
+
+.nav-link
+{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: raleway;
+   
+}
+
+.nav-link:hover
+{
+    background-color:#ff4500;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover a
+{
+    color: white;
+}
+
+.nav-brand a
+{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    display: block;
+    font-family: roboto;
+    
+}
+
+.social
+{
+    padding: 1.4rem 0;
+}
+
+.social i
+{
+    padding: 0 0.2rem;
+}
+.social i:hover
+{
+    color: #ffa500;
+}
+
+/*-----x----navbar----x---*/
+
+/*------------------Main Site Content-----------------------*/
+
+/*---------------Site Title----------------------*/
+
+.site-title
+{
+    background: url("../assets/Background-image.png");
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-background
+{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+h1,h3
+{
+    margin: .3rem;
+}
+
+
+.btn
+{
+    margin: 1.8rem;
+    background: var(--fun);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: roboto;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/*---------------Site Title----------------------*/
+
+/*---------------Blog Carousel----------------------*/
+
+.blog
+{
+    background: url("../assets/Abract01.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size:65%;
+}
+
+.container
+{
+    margin: 0 5vw;
+    padding-top: 6rem;
+}
+
+
+.blog-content
+{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 80%;
+margin: 2rem 2rem;
+box-shadow: 5px 10px 20px #808080;
+
+}
+
+.blog-title
+{
+    padding: 2rem 0;
+  
+}
+
+.blog-title h3
+{
+    font-size: 1.1rem;
+}
+
+
+
+.btn-blog
+{
+    padding: .8rem 2rem;
+    margin:3rem;
+    background: var(--fun);
+    border: none;
+    border-radius: 2rem;
+    font-size: .9rem;
+    font-family: roboto;
+    cursor: pointer;
+}
+
+.btn-blog:hover
+{
+    background: transparent;
+    border: 1px solid #2572ec;
+    color: #2572ec;
+}
+
+.blog-content span
+{
+    display: block;
+    margin: 1.1rem 0;
+    font-family: roboto;
+}
+/*---------x-----Blog Carousel------------x---------*/
+
+/*---------------Site-Content-----------------------*/
+
+.site-content
+{
+
+   display:grid;
+   grid-template-columns:70% 30%;
+    
+}
+
+.post-content
+{
+    width: 100%;
+}
+.post-content>.post-image,.post-title /*- zara space da deya post image or text ko--*/
+{
+    padding: 1rem 2rem;
+    position: relative;
+}
+.post-info
+{
+    background: var(--fun);
+    padding: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left: 20vw;
+    border-radius: 3rem;
+}
+
+.post-image>div
+{
+    overflow: hidden;
+}
+
+.img
+{
+    width: 100%;
+    transition: all 1s ease;
+    
+}
+
+.img:hover
+{
+    transform: scale(1.3);
+}
+
+.post-info span
+{
+    margin: 0.1rem;
+}
+
+.post-title a
+{
+    font-family: roboto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.post-btn
+{
+    margin: .2rem;
+    background: var(--fun);
+    border: none;
+
+    font-size: .9rem;
+    font-family: roboto;
+    cursor: pointer;
+    border-radius: 0;
+    padding: .7rem 1.5rem;
+    
+}
+.post-btn:hover
+{
+    background: transparent;
+    border: 1px solid #2572ec;
+    color: #2572ec;
+}
+
+.pagination
+{
+    justify-content: center;
+    color: gray;
+    margin: 4rem 0;   
+}
+
+.pagination a
+{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0 .3rem;
+    font-family: roboto;
+}
+
+.pages
+{
+    background-color:#ff4500;
+    color: white;
+}
+
+
+/*--------------------SideBar----------------------*/
+.sidebar h2
+{
+    color: #ff4500;
+    font-size: 1.8rem;
+    margin: 3rem 0;
+}
+
+
+.category-list
+{
+    font-family: roboto;
+}
+.list-item
+{
+    background:var(--fun) ;
+    padding: .4rem 1rem;
+    margin: .8rem 0rem;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item a
+{
+    color: black;
+}
+
+.popular-post .post-content
+{
+    padding: 1rem 0 !important;
+}
+
+
+.popular-post .post-info
+{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 2rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.popular-post .post-title a
+{
+    font-size: 1rem;
+}
+
+.newsletter
+{
+    padding: .8rem .9rem;
+    
+}
+
+
+.form-element
+{
+    padding:.5rem 2rem ;
+}
+
+.input-element
+{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: roboto;
+    font-size: 1rem;
+}
+
+.form-btn
+{
+    margin: 1rem 0;
+    background: var(--fun);
+    border: none;
+    font-size: .9rem;
+    font-family: roboto;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    padding:.8rem 31%;
+}
+
+.popular-tags
+{
+    padding-top: 4rem 0;
+}
+
+.tag{
+    background: var(--fun);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+}
+
+/*--------X-----------SideBar--------X-------------*/
+/*--------x------Site-Content--------x--------------*/
+/*---------x--------Main Site Content-----------x-----------*/
+
+
+/*-------------------------Footer-------------------------------*/
+.footer
+{
+    height: 100%;
+    background: #ff4500;
+    position: relative;
+}
+
+footer .container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem .9rem;
+}
+
+.footer h2
+{
+    color: white;
+}
+
+.footer p
+{
+    color: rgb(226, 219, 219);
+}
+
+
+
+footer .container > div 
+{
+    flex-grow: 1;   /*--you specify how much the item will grow related to the rest of the flexible item inside the same container/div--*/
+    flex-basis: 0; /*--specify the initial width of an item--*/
+    padding: 3rem .9rem;
+}
+
+.forms-element
+{
+    background: rgb(255, 255, 255);
+    display: inline;
+    padding:.7rem 0;
+
+}
+
+.Email
+{
+    border: none;
+    background: transparent;
+    width: 50%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: roboto;
+    font-size: 1rem;
+}
+
+.forms-element span
+{
+    background: var(--fun);
+    padding: .6rem .8rem;
+    cursor: pointer;
+}
+
+.instagram img
+{
+    display: inline;
+    margin: .3rem .4rem;
+    border: 1px white solid;
+}
+
+.social-icon i
+{
+    color: white;
+    padding: 0 .3rem;
+}
+
+.rights
+{
+    justify-content: center;
+    font-family: raleway;
+}
+
+.rights span
+{
+    color: white;
+    font-weight: 600;
+}
+
+.move-up
+{
+    position:absolute;
+    right: 6% ;
+    top:50%;
+}
+
+.move-up span
+{
+    color: white;
+
+}
+
+.move-up span:hover
+{
+    color: #87ceeb;
+    cursor: pointer;
+    
+}
+
+/*---------x---------------Footer--------------x----------------*/
+
+
+/*--------viewport less then or equal to 700px---------*/
+
+@media only screen and (max-width:750px) /* using media query you can create responsive website*/
+{
+.nav-menu,.nav-items{
+    flex-direction: column;
+  }
+  .toggle-collapse
+  {
+      display: initial;
+  }
+
+  .site-content{
+      grid-template-columns: 100%;
+
+  }
+
+}
+
+/*----x----viewport less then or equal to 700px-----x----*/
+
+/*--------viewport less then or equal to 1130px---------*/
+
+@media only screen and (max-width:1130px)
+{
+    .site-content .post-content > .post-image .post-info
+    {
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .site-content .sidebar .popular-post .post-info
+    {
+        display: none !important;
+    }
+
+    .footer .container{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+}
+
+/*---x----viewport less then or equal to 1130px---x-----*/
+
+/*--------viewport less then or equal to 520px---------*/
+
+@media only screen and (max-width:520px)
+{
+    .site-content .post-content > .post-image .post-info
+    {
+        display: none;
+    }
+
+    .footer .container > div {
+        padding: 1rem .9rem !important;
+    }
+
+    .footer .container{
+        grid-template-columns: 100% !important;
+    }
+}
+
+/*----x---viewport less then or equal to 520px---x-----*/

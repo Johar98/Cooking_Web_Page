@@ -1,0 +1,25 @@
+
+.number-figure
+{
+    position: relative;
+    background-image: url(./Bg3.jpg);
+    background-size: cover;
+    top: -16px;
+.padding3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap ;
+    text-align: center;
+    
+    .numbers
+    {
+        margin: 4rem 3rem;
+        color: white;
+        font-family: $roboto;
+        font-size: 2rem;
+    }
+}
+
+}

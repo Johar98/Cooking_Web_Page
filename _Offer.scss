@@ -1,0 +1,177 @@
+.contain
+{
+
+.offer
+{
+    justify-content: center;
+    width: 40rem;
+    margin-left: 22rem;
+    border-radius: 10rem;
+    height:7.5rem;
+    background: $contact_orange;
+    position: relative;
+    bottom: 4rem;
+
+    .delivery
+    {
+        position: absolute;
+        border-right: 1px white solid;
+        left: 0rem;
+        background: $menu_orange;
+        height:7.5rem;
+        text-align: center;
+        width: 9rem;
+        border-radius: 10rem 0 0 10rem;
+        cursor: pointer;
+
+        h5
+        {
+            display: block;
+            position:relative;
+            top: 30px;
+            left:5px;
+            font-weight: 90%;
+            font-size: 1.22rem;
+            line-height: 65%; 
+            color: white;
+            transition: all .3s ease;
+        }
+        &:hover
+        {   
+            transition: .3s ease;
+            background:#df5713;
+            transition:0.2s ease;
+        }
+    }
+
+    .contact
+    {
+        position:relative;
+        left: 0rem;
+        top: 2rem;
+        text-align: center;
+        height:3.5rem;
+        width: 19rem;
+
+    p
+    {
+        color:white;
+        font-size: .8rem;
+        font-weight: lighter;
+        font-family: Bahnschrift;
+    }
+    .phone
+    {
+        display: inline-flex;
+    span
+    {
+        margin: 0 0 0 8rem;
+    
+    .fa-circle
+    {
+        color:white ;
+        font-size: 2.8rem;
+        position: relative;
+        bottom:1.5rem;
+        right:8.9rem;
+    }
+    .fa-phone
+    {
+        color: white;
+        position: relative;
+        font-size: 1.5rem;
+        bottom: 3.75rem;
+        right: 9rem;
+        font-weight: 1%;
+        transition: transform .3s ease;
+    &:hover
+    {
+        transform: rotate(180deg);
+    }
+    }
+    }
+    p
+    {
+        color: white; 
+        position: relative;
+        right: 8rem;
+        bottom: 1.5rem;
+        font-size: 2rem;
+        font-family: Bahnschrift;
+        transition: all .3s ease;
+    &:hover
+    {
+        transition:.3s ease;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    }
+    }
+    }
+
+    .order
+    {
+        position: absolute;
+        border-left: 1px white solid;
+        right: 0rem;
+        background: $gray;
+        height:7.5rem;
+        text-align: center;
+        width: 10.6rem;
+        transition: all .3s ease;
+        border-radius: 0 10rem 10rem 0;
+    &:hover
+        {
+            transition:.3s ease;
+            background: #363636;
+            transition: 0.5s ease;
+        }
+    .btn3
+    {
+        padding: .5rem 0.8rem;
+        margin: 2.7rem 0 0 0;
+        border-radius: 1rem;
+        font-size: .8rem;
+        font-weight: bold;
+        transition: all .3s ease;
+        color: $menu_orange;
+    &:hover
+    {
+        background: $menu_orange;
+        transition:.3s ease;
+        color: white;
+        transition: 0.5s ease;
+    }
+    }
+    }
+
+    .option
+    {
+        display: inline-block;
+        
+        .fa-circle
+        {
+            color: white;
+            position: absolute;
+            top: 2.8rem;
+            left:28.3rem;
+            font-size: 2.3rem;
+        
+        p
+        {
+            color: $menu_orange;
+            position: relative;
+            font-family: Bahnschrift;
+            bottom: 1.8rem;
+            font-size: 1.2rem;
+            text-align: center;
+
+        }
+        }
+    }
+
+
+
+    }
+}

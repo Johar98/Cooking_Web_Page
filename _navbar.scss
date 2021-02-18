@@ -1,0 +1,92 @@
+
+.site-title
+{
+    background: url(./brooke-lark-wMzx2nBdeng-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+.nav
+{
+    background: black;
+    opacity: 0.85;
+    padding: 0 10rem 0 6rem;
+    height: 0;
+    min-height: 15.5vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+
+.nav-menu
+{
+    justify-content: space-between;
+
+}
+
+.logo1
+    {
+    width: 15vh;
+    height: 15vh;
+    }
+
+.menu
+{
+    padding: 0 3rem;
+}
+
+.nav-item
+{
+    display: flex;
+    margin: 0;
+
+}
+
+.nav-link
+    {                                         
+        padding: 2rem 2.5rem;
+        position: relative;
+        font-family: $menu-text;
+        font-size: 1.8rem;
+    .home
+    {
+        color: #f26925;
+        text-decoration: underline;
+    }
+    a
+    {
+        color: white;
+        transition: all .3s ease;
+    
+    &:hover
+    {
+    color: $menu_orange;
+    text-decoration: underline;
+    transition:0.3s ease;
+
+    }
+
+}
+}
+
+.btn
+{
+    background-color: $button_red;
+    margin: 2.1rem 0;
+    border: none;
+    text-align: center;
+    padding: .3rem 0;
+    width: 8rem;
+    height: 2.2rem;
+    font-family: Bebas Neue;
+    font-size: 1.4rem;
+    color: white;
+    transition: all .3s ease;
+    border-radius:.7rem;
+    &:hover
+    {
+        background-color:#c80808;
+        font-size:1.3rem ;
+        transition: .3s ease;
+    }
+}
+
+}

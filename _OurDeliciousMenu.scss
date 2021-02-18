@@ -1,0 +1,196 @@
+.our-delicious-menu
+{
+    background:$whole_background;
+    position: relative;
+    top: -16px;
+    padding: 0 0 7rem;
+
+.heading2
+{
+    justify-content: center;
+    display:flex;
+    position: relative;
+.padding2
+{
+    text-align: center;
+h6
+{
+    color: $menu_orange;
+    font-family: $roboto;
+    
+}
+h2
+{
+    font-family: Arial black;
+}
+}
+}
+
+#pagin nav {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    ul 
+    {
+        display: flex;
+        list-style-type: none;
+        margin: 4rem 2.1rem;
+        padding: 0px;
+    }
+}
+
+.setup
+{
+    position: relative;
+    padding: 0 0 2rem 0;
+.frame
+{
+    text-align: center;
+
+.active
+{
+    background: $menu_orange;
+    color: white;
+    a
+    {
+        color: white;
+    }
+}
+    .circle1
+    {
+        border-radius: 50%;
+        width: 125px;
+        display: flex;
+        margin:0 2rem;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        border: 2.5px solid $menu_orange;
+        height: 125px;
+        transition: all .2s ease;
+        &:hover
+        {
+            background-color: $menu_orange;
+            a
+            {
+                color: white;
+            }
+        }
+    a
+    {  
+        font-family: $roboto medium;
+        &:hover
+        {
+            background-color: $menu_orange;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    }
+}
+}
+
+.top
+{
+    position: relative;
+    left: 12.5rem;
+}
+.box
+{
+    justify-content: center;
+    background-color:$menu_card ;
+    display:flex;
+    width:60rem;
+    height: 37rem;
+    position: relative;
+
+    .main-option
+    {
+        position: relative;
+        right: 1rem;
+    
+    img
+    {
+        position: relative;
+        left: 2rem;
+        float: right;
+        filter: brightness(50%);
+        width: 47%;
+        transition: all .3s ease;
+        &:hover
+        {
+            filter: brightness(100%);
+            transition: .3s ease;
+        }
+    }
+    h1
+    {
+        font-family: $roboto thin;
+        font-weight: bold;
+        font-size: 4rem;
+        padding: 2rem 0 .1rem 0;
+        text-align: right;
+    }
+    .diff-option
+    {   
+        border-bottom-width: 20px;
+        padding: 2rem 2rem .5rem;
+        border-bottom: black 1px dashed;
+        p
+        {
+            float: right;
+            font-size: .8rem;
+            color: $menu_orange;
+            font-weight: bold;
+        }
+        h3
+        {
+            font-family: $Futura Condensed;
+            font-size: 2rem;
+            line-height: 20px;
+            transition: all .3s ease;
+            font-weight: bold;
+        &:hover
+        {
+            font-size: 2.1rem;
+            cursor: pointer;
+            transition: .3s ease;
+            color: $menu_orange;
+        }
+        }
+        h6
+        {
+            font-family: $roboto Light;
+            font-size: .7rem;
+            font-weight: bold;
+        }
+    }
+    .more1
+    {
+    justify-content: center;
+    display:flex;
+    padding: 1.3rem 0;
+    .btn5
+    {
+        text-align: center;
+        font-size: .9rem;
+        padding: .5rem 1.8rem;
+        border-radius: .6rem;
+        font-family: $roboto;
+        color: white;
+        background: $menu_orange;
+        border: none;
+        transition: all .3s ease;
+        &:hover
+        {
+            background: rgb(224, 224, 224);
+            color: $menu_orange;
+            transition: .3s ease;
+        }
+    }
+    }
+    }
+    
+}
+}

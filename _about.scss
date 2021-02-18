@@ -1,0 +1,58 @@
+
+.site-title2
+{
+    overflow: hidden;
+    margin: 0 0 6rem;
+    position: relative;
+}
+.about
+{
+    width:60%;
+    padding:8rem 10rem 0 10rem;
+
+    img
+    {
+        float: right;
+    }
+
+    h2
+    {
+        padding: 0 0 1.5rem 0;
+        font-family: $roboto medium;
+    }
+    .discription
+    {
+        font-family: Brandon Grotesque medium;
+    }
+    p
+    {
+        font-family: Brandon Grotesque medium;
+    }
+    span
+    {
+        padding: 0 2rem;
+        color: $menu_orange;
+    }
+    .more
+    {
+        padding: .8rem 0;
+    .btn4
+    {  
+        width: 9rem;
+        border: none;
+        height: 3rem;
+        font-family: $roboto medium;
+        border-radius: 2rem;
+        font-size: 1rem;
+        color: white;
+        background-color: $menu_orange;
+    &:hover
+    {
+        color: $menu_orange;
+        background: rgb(224, 224, 224);
+        transition: 0.3s ease;
+    }
+    }
+    }
+
+}

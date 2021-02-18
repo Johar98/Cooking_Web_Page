@@ -1,0 +1,22 @@
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style-type: none;
+}
+body
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
