@@ -1009,4 +1009,252 @@ body {
   background: #181819;
   color: white;
 }
+
+.footer .contact-info {
+  display: inline-block;
+  padding: 3rem 0 0;
+}
+
+.footer .contact-info img {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.footer .contact-info img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .contact-info .icon-info {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: roboto;
+  font-size: .9rem;
+  padding: 0 0 0 2.5rem;
+}
+
+.footer .contact-info .icon-info p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  left: 2.7rem;
+  bottom: 1.7rem;
+  display: block;
+  font-family: roboto;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.footer .contact-info .icon-info p:hover {
+  color: #f26925;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.footer .contact-info .icon-info .far {
+  color: #f26925;
+  font-size: 1.95rem;
+}
+
+.footer .contact-info .icon-info .fas {
+  position: relative;
+  right: 1.4rem;
+  bottom: .4rem;
+  font-size: .9rem;
+  color: #f26925;
+}
+
+.footer .about-info {
+  padding: 6rem 7rem 0;
+  text-align: center;
+}
+
+.footer .about-info h1 {
+  font-family: roboto;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer .about-info h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .about-info a {
+  margin: 0 0 .1rem 0;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.19rem;
+  font-weight: 600;
+  font-family: roboto;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.footer .about-info a:hover {
+  color: #f26925;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.footer .gallery-f {
+  padding: 3rem 0 0;
+  width: 30%;
+  text-align: center;
+}
+
+.footer .gallery-f h1 {
+  padding: 0 0 1rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer .gallery-f h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .gallery-f .img-f {
+  position: relative;
+  left: 1.6rem;
+  width: 25%;
+  margin: .3rem .3em;
+  border-radius: .7rem;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.footer .gallery-f .img-f:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .page-info {
+  padding: 2rem 5.5rem 0;
+  text-align: center;
+}
+
+.footer .page-info h1 {
+  font-family: roboto;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer .page-info h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .page-info a {
+  margin: 0 0 .1rem 0;
+  display: block;
+  font-family: roboto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.19rem;
+  font-weight: 500;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.footer .page-info a:hover {
+  color: #f26925;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.footer .pop-location {
+  padding: 2rem 2.9rem 2rem;
+  text-align: center;
+}
+
+.footer .pop-location h2 {
+  font-family: roboto;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer .pop-location h2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .pop-location a {
+  margin: 0 3rem .17rem 0;
+  display: block;
+  color: white;
+  text-align: left;
+  font-family: roboto;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.footer .pop-location a:hover {
+  color: #f26925;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.footer .additional-info {
+  padding: 2rem 3rem 2rem;
+  width: 35%;
+  text-align: center;
+}
+
+.footer .additional-info h2 {
+  font-family: roboto;
+  font-weight: bold;
+  margin: 0 0 1.5rem 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer .additional-info h2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer .additional-info p {
+  font-size: .7rem;
+  font-family: roboto;
+}
+
+.footer .copy-right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: roboto;
+}
+
+.footer .copy-right span {
+  color: #f26925;
+}
 /*# sourceMappingURL=style.css.map */

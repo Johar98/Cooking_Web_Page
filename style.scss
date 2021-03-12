@@ -1,22 +1,12 @@
-@import "./variable";
-@import "./Global";
-@import "./navbar";
-@import "./MainDescription";
-@import "./Offer";
-@import "./about";
-@import "./FamousFood";
-@import "./OurServices";
-@import "./OurDeliciousMenu";
-@import "./NumberFigure";
-@import "./choose";
-
-.footer
-{
-    background: $footer_color;
-    color: white;
-    .fa-circle
-    {
-        
-    }
-
-}
+@import "./SCSS/variable";
+@import "./SCSS/Global";
+@import "./SCSS/navbar";
+@import "./SCSS/MainDescription";
+@import "./SCSS/Offer";
+@import "./SCSS/about";
+@import "./SCSS/FamousFood";
+@import "./SCSS/OurServices";
+@import "./SCSS/OurDeliciousMenu";
+@import "./SCSS/NumberFigure";
+@import "./SCSS/choose";
+@import "./SCSS/Footer";

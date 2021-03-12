@@ -1,0 +1,223 @@
+
+.footer
+{
+    background: $footer_color;
+    color: white;
+
+    .contact-info
+    {
+        display:inline-block;
+        padding: 3rem 0 0;
+        img
+        {
+            transition: all .4s ease;
+            cursor: pointer;
+            &:hover
+            {
+                transform: scale(1.1);
+            }
+        }
+    .icon-info
+    {
+        justify-content: center;
+        font-family: $roboto;
+        font-size: .9rem;
+        padding: 0 0 0 2.5rem;
+
+        p
+        {
+            display: inline-flex;
+            position: relative;
+            left: 2.7rem;
+            bottom: 1.7rem;
+            display: block;
+            font-family: $roboto;
+            transition: all .3s ease;
+            &:hover
+            {
+                color: $menu_orange;
+                cursor: pointer;
+                transition: .3s ease;
+                transform: scale(1.03);
+            }
+        }
+        .far
+        {
+            color: $menu_orange;
+            font-size: 1.95rem;
+        }
+        .fas
+        {
+            position: relative;
+            right: 1.4rem;
+            bottom: .4rem;
+            font-size: .9rem;
+            color: $menu_orange;
+        }
+}
+}
+    .about-info
+    {
+        padding: 6rem 7rem 0;
+        text-align: center;
+        h1
+        {
+            font-family: $roboto;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            transition: all .4s ease;
+            &:hover
+            {
+                transform: scale(1.1);
+            }
+        }
+        a
+        {
+            margin: 0 0 .1rem 0;
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 1.19rem;
+            font-weight: 600;
+            font-family: $roboto;
+            transition: all .3s ease;
+            &:hover
+            {
+                color: $menu_orange;
+                transition: .3s ease;
+                transform: scale(1.03);
+            }
+        }
+    }
+
+    .gallery-f
+    {
+        padding: 3rem 0 0 ;
+        width: 30%;
+        text-align: center;
+    h1
+    {
+        padding: 0 0 1rem;
+        transition: all .4s ease;
+        &:hover
+        {
+            transform: scale(1.1);
+        }
+    }
+    .img-f
+    {
+    position: relative;
+    left: 1.6rem;
+    width: 25%;
+    margin: .3rem .3em; 
+    border-radius: .7rem;
+    transition: all .4s ease;
+    filter: brightness(50%);
+&:hover
+    {
+        filter: brightness(100%);
+        transition: .4s ease;
+        transform: scale(1.1);
+    }
+}
+}
+    .page-info
+    {
+        padding: 2rem 5.5rem 0;
+        text-align: center;
+        h1
+        {
+            font-family: $roboto;
+            font-weight: bold;
+            margin: 0 0 1rem 0;
+            transition: all .4s ease;
+            &:hover
+            {
+                transform: scale(1.1);
+            }
+        }
+        a
+        {
+            margin: 0 0 .1rem 0;
+            display: block;
+            font-family: $roboto;
+            color: white;
+            text-decoration: none;
+            font-size: 1.19rem;
+            font-weight: 500;
+            transition: all .3s ease;
+            &:hover
+            {
+                color: $menu_orange;
+                transition: .3s ease;
+                transform: scale(1.03);
+            }
+        }
+    }
+
+    .pop-location
+    {
+        padding: 2rem 2.9rem 2rem;
+        text-align: center;
+        h2
+        {
+            font-family: $roboto;
+            font-weight: bold;
+            margin: 0 0 1.5rem 0;
+            transition: all .4s ease;
+            &:hover
+            {
+                transform: scale(1.1);
+            }
+        }
+        a
+        {
+            margin: 0 3rem .17rem 0;
+            display: block;
+            color: white;
+            text-align: left;
+            font-family: $roboto;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: all .3s ease;
+            &:hover
+            {
+                color: $menu_orange;
+                transition: .3s ease;
+                transform: scale(1.03);
+            }
+        }
+    }
+    .additional-info
+    {
+        padding: 2rem 3rem 2rem;
+        width: 35%;
+        text-align: center;
+        h2
+        {
+            font-family: $roboto;
+            font-weight: bold;
+            margin: 0 0 1.5rem 0;
+            transition: all .4s ease;
+            &:hover
+            {
+                transform: scale(1.1);
+            }
+        }
+        p
+        {
+            font-size: .7rem;
+            font-family: $roboto;
+        }
+}
+.copy-right
+{
+    justify-content: center;
+    text-align: center;
+    font-family: $roboto;
+    span
+    {
+        color: $menu_orange;
+    }
+}
+}
